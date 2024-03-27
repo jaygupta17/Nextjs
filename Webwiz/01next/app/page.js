@@ -1,9 +1,11 @@
-
+import Navbar from "./Components/Navbar";
+import Landing from "./Components/Landing"
 export default function Home() {
   return (
    <>
-     <main className="h-screen bg-neutral-800">
-        
+     <main className="h-[100vh]">
+        <Navbar/>
+        <Landing/>
      </main>
    </>
   );
